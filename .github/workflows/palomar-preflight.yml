@@ -1,4 +1,3 @@
-# Local inactive draft. Install only in the finalized package repository.
 name: Palomar complete mechanical preflight
 on:
   workflow_dispatch:
@@ -8,7 +7,7 @@ on:
         required: true
         type: string
       request_id:
-        description: Caller-chosen lowercase preflight identifier
+        description: Exactly twelve lowercase alphanumeric characters
         required: true
         type: string
       options:

@@ -14,7 +14,7 @@ limitations under the License.
 module
 
 public import Mathlib.NumberTheory.ArithmeticFunction.Misc
-public import Mathlib.Data.Real.Basic
+public import Mathlib.Basic.Real.Basic
 public import Mathlib.Order.Filter.AtTopBot.Basic
 public import Lean.Elab.Tactic.Omega
 

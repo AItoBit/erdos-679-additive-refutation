@@ -129,3 +129,13 @@ This is an agent audit. It is not human peer review. Build, warning, axiom,
 Comparator, and independent-kernel results must be taken from the verification
 logs for the exact final source snapshot. This document does not assert that
 those checks have passed.
+
+### Corpus counts for this task
+
+Two research papers were identified and screened (Erdős and Lau); one was
+reviewed in full extracted text (Erdős), and zero research papers supply a
+proof dependency of the independently implemented argument. One unique
+arXiv paper was identified (Lau); it was not reviewed in full text. The proof
+uses the credited forum argument and Mathlib. The Studio default campaign of
+100 fully read papers has not been completed. These counts do not treat code,
+forum posts, or source scans of the same paper as additional papers.

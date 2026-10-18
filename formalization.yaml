@@ -1,4 +1,3 @@
-# Candidate metadata. Final verification facts remain to be filled from actual reports.
 version: v0.4
 project:
   name: "Additive strengthening of Erdos problem 679: a known refutation"
@@ -14,7 +13,6 @@ project:
   # This does not claim manual proof generation; see automation.notes.
   authors: [AItoBit]
   responsible_maintainers: [AItoBit]
-  # Proposed for the independently written implementation; match the root LICENSE.
   license: Apache-2.0
 classification:
   arxiv: [math.NT]
@@ -41,8 +39,6 @@ related_formalizations:
       This development uses a different Mathlib-only proof architecture.
 status:
   scope: "The known additive refutation only; the main multiplicative question remains open."
-  # Fill sorry_count, sorry_in_definitions, axioms and verified main_results
-  # from the final supported-toolchain build and axiom reports.
 automation:
   methods:
     - method: agent

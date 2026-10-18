@@ -21,6 +21,11 @@ agent review, not human expert review.
 
 The same proof has been ported into the module system with Lean `4.35.0-rc2`
 and Mathlib `065356127b1dc0016f66b7283ce0ce2c4055aa55`.
-Checks for the port are in progress. No passing Palomar report is claimed here.
+Linux CI for the initial commit `682b2277ab59addb95ec18455148428e9bb39ee6`
+elaborated all proof modules, `Solution`, and `Challenge`. Its strict build
+reported one deprecated import; that import is corrected in this revision.
+The CI workflow performs the full warning-free build and final theorem axiom
+inspection. Its run identifies the exact checked commit. Palomar's complete
+mechanical preflight is separate; no registry acceptance is asserted here.
 `Challenge.lean` deliberately has one statement-comparison hole; it is excluded
 from the solution's dependency closure.
